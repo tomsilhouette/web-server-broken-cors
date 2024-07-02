@@ -17,6 +17,7 @@ app.use(
     origin: 'https://xxx.net',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: 'Content-Type, Authorization',
+    optionsSuccessStatus: 500, // Some legacy browsers (IE11, various SmartTVs) choke on 204
   })
 );
 
