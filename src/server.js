@@ -17,7 +17,6 @@ app.use(
     origin: 'https://ambitious-ocean-09f9fbd03-preview.westeurope.5.azurestaticapps.net',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: 'Content-Type, Authorization',
-    optionsSuccessStatus: 500, // Some legacy browsers (IE11, various SmartTVs) choke on 204
   })
 );
 
