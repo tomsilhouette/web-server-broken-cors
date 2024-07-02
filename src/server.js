@@ -14,7 +14,7 @@ app.disable('x-powered-by');
 // Add middleware
 app.use(
   cors({
-    origin: 'https://ambitious-ocean-09f9fbd03-preview.westeurope.5.azurestaticapps.net',
+    origin: 'https://xxx.net',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: 'Content-Type, Authorization',
   })
